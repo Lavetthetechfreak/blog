@@ -1,0 +1,26 @@
+1.create the models 
+   #things learnt
+   ''' how to define variables in models
+       how to add model options
+       '''
+2.Create the views
+  a)views.create for creating the content for the blog
+  b)views.list for listing all the blog content
+  c)views.update for updating/editing all the contents
+  d)views.delete for deleting content
+
+  #things learnt
+    '''how to use objects
+       how to send data to the admin
+       how to delete data
+       how to create data
+       ,,,
+       #Extras
+       HttpResponseRedirect
+       Shortcut-redirect
+       how to make templates more dinamic using Base.html
+       get_absolute_url should be mapped to the model to be used
+3.create url
+    #things learnt
+     ''' namespace make urls more dinamic thus very important
+         regular expression(regex)

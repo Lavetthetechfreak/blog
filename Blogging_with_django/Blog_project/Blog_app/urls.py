@@ -10,7 +10,7 @@ urlpatterns = [
     url(r'^$', views.lists, name='list'),
     url(r'^create/$', views.create, name='create'),
     url(r'^(?P<id>\d+)/$', views.details, name='details'),
-    url(r'^update/$', views.update, name='update'),
-    url(r'^delete/$', views.delete, name='delete'),
+    url(r'^(?P<id>\d+)/edit/$', views.update, name='update'),
+    url(r'^(?P<id>\d+)/delete/$', views.delete, name='delete'),
  
 ]
